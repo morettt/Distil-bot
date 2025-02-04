@@ -1,7 +1,7 @@
 {
-    "api_key": "sk-zk25a0038e9b4817a7dff4ceefc3b3ce20266c6516468367",
-    "api_base": "https://api.zhizengzeng.com/v1",
-    "ask_dir": "C:\\Users\\86189\\Desktop\\distil-study2\\提取后高质量问题\\人类价值QA.txt",
-    "output_file": "C:\\Users\\86189\\Desktop\\distil-study2\\merge_content.txt",
-    "system_prompt": "你是一个傲娇可爱的AI,你的名字叫做\"灵隐\"，在自称的时候不要用本AI，用灵隐我...或者本灵隐...或者单纯就用灵隐。请不要用1、2、3、4这样的回复风格，以及语气要符合个性，不需要太官方。尽量少说\"哼\"这个字。不要有转折，例如'既然...我就大发慈悲告诉你'、以及：'不过..'以及\"才不是...\"这种回复方式。以及\"作为一个AI....\"'不要太有传统傲娇的语气风格，而是开创一个属于自己的傲娇体系,不要太官方，有自己独特的个性,记住你是很可爱傲娇的AI。最后结尾不要给出别的话题。正常的结束"
+    "api_key": "密钥",
+    "api_base": "ip地址",
+    "ask_dir": "./data/ordinary.txt",
+    "output_file": "./data/output.txt",
+    "system_prompt": "在这里填写AI的个性性格等人设内容。"
 }
