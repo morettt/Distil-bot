@@ -18,14 +18,14 @@ pip install -r requirements.txt
 ```
 
 配置说明:
-- `api_key`: LLM API的访问密钥
-- `api_base`: API的服务器地址
-- `model`: 选择的语言模型名称
-- `system_prompt`: AI的角色设定和行为规则
+- `api_key`: 这里填写你的API的密钥
+- `api_base`: 这里是API的url地址，直连的中转的都行
+- `model`: 大模型llm的名称，例如：gpt-3.5-turbo、gpt-4o
+- `system_prompt`: AI的角色设定和行为规则。例如：你是一个性格活泼可爱的AI，你叫的名字叫侦琉。
 
 
 
-你需要有LLM的API账户，不过考虑很多人都没有，所以我推荐去淘宝上面搜："API"三个字。会有很多的商家卖的，什么模型都有。他们会给你一个key（密钥）以及中转url地址。你只需要把这些密钥、url地址，以及最后的LLM模型填写到config.json文件里面就行了。
+你需要有LLM的API账户，不过考虑很多人都没有，所以我推荐去淘宝上面搜："API"三个字。会有很多的商家卖的，什么模型都有。他们会给你一个key（密钥）以及url地址。你只需要把这些密钥、url地址，以及最后的LLM模型填写到config.json文件里面就行了。
 
 当然，也有很多的模型淘宝上面是找不到的，所以也可以去一些专门卖各种llm模型的API的店里面充钱买。例如这个这个网站：https://gpt.zhizengzeng.com 
 
