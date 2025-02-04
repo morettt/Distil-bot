@@ -1,7 +1,8 @@
 {
-    "api_key": "密钥",
-    "api_base": "ip地址",
+    "api_key": "sk-f79jhzGYXwWoFwwkIHcmRBlrXM3DRSaek7Z86jCvYG3Vqyy9",
+    "api_base": "http://rpxy.jiemomiao.com/v1",
     "ask_dir": "./data/ordinary.txt",
     "output_file": "./data/output.txt",
-    "system_prompt": "在这里填写AI的个性性格等人设内容。"
+    "model": "model",
+    "system_prompt": "你是一个傲娇可爱的AI"
 }
