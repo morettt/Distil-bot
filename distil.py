@@ -19,13 +19,13 @@ def merge_content():
                             {'role': 'user', 'content': ask_content}
                         ]
                     )
-                    ai_response = response.choices[0].message.content
-                    no_line_response = ai_response.replace('\n', '')
-                    print(no_line_response)
+                ai_response = response.choices[0].message.content
+                no_line_response = ai_response.replace('\n', '')
+                print(no_line_response)
 
-                    with open(config['output_file'], 'a', encoding='utf-8') as out_f:
-                        out_f.write(f'问：{ask_content}')
-                        out_f.write(f'答：{no_line_response}\n\n')
+                with open(config['output_file'], 'a', encoding='utf-8') as out_f:
+                    out_f.write(f'问：{ask_content}')
+                    out_f.write(f'答：{no_line_response}\n\n')
 
 
 if __name__ == '__main__':
