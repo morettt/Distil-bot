@@ -17,6 +17,13 @@ pip install -r requirements.txt
 }
 ```
 
+配置说明:
+- `api_key`: LLM API的访问密钥
+- `api_base`: API的服务器地址
+- `model`: 选择的语言模型名称
+- `system_prompt`: AI的角色设定和行为规则
+
+
 
 你需要有LLM的API账户，不过考虑很多人都没有，所以我推荐去淘宝上面搜："API"三个字。会有很多的商家卖的，什么模型都有。他们会给你一个key（密钥）以及中转url地址。你只需要把这些密钥、url地址，以及最后的LLM模型填写到config.json文件里面就行了。
 
